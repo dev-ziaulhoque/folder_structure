@@ -1,8 +1,12 @@
 // lib/main.dart
+import 'core/local_storage/local_storage.dart';
 import 'core/utils/shared_resources.dart';
 
 Future<void> main() async{
   WidgetsFlutterBinding.ensureInitialized();
+
+  /// Initialize LocalStorage
+  await LocalStorage.init();
 
   /// Load .env and initialize Env class
   await dotenv.load(fileName: ".env");
