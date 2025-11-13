@@ -10,4 +10,5 @@ export 'package:protthasha_app/app/router/routes.dart';
 export 'package:protthasha_app/core/theme/app_theme.dart';
 export 'package:protthasha_app/core/theme/colors.dart';
 export 'package:protthasha_app/core/theme/app_assets.dart';
+export 'package:protthasha_app/core/local_storage/local_storage.dart';
 

@@ -1,5 +1,4 @@
 // lib/main.dart
-import 'core/local_storage/local_storage.dart';
 import 'core/utils/shared_resources.dart';
 
 Future<void> main() async{
